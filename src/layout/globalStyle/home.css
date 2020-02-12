@@ -1,0 +1,100 @@
+/* Home Blocks */
+
+.app-steps {
+  border-radius: 1rem;
+  box-shadow: 0 1px 4px 0 rgba(69, 69, 184, 0.1);
+  color: #546677;
+  flex-basis: 0;
+  flex-grow: 1;
+  margin: 0 1rem;
+  padding: 3.5rem 2rem;
+}
+
+.app-steps p {
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+.app-steps-wrap {
+  display: flex;
+  padding: 2rem 0;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.app-steps h2 {
+  color: #222;
+  font-size: 2rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.app-steps .slogan {
+  text-transform: uppercase;
+}
+.app-steps-a {
+  background-color: #fffaed;
+}
+.app-steps-a .slogan {
+  color: #f2a539;
+} 
+.app-steps-b {
+  background-color: #ebecff;
+}
+.app-steps-b .slogan {
+  color: #6868f7;
+} 
+.app-steps-c {
+  background-color: #ffecf4;
+}
+.app-steps-c .slogan {
+  color: #f54b94;
+} 
+
+.app-steps figure + p {
+  margin-top: 2rem
+}
+
+.app-steps img {
+  max-width: 55%;
+  margin: 2rem auto 0;
+  display: block;
+  opacity: 0.6;
+}
+
+@media (max-width: 540px) {
+  .app-steps-wrap {
+    display: block;
+  }
+  .app-steps {
+    padding: 1.5rem 1rem;
+    margin: 0 1rem 1rem;
+  }
+
+  .app-steps .slogan {
+    font-size: 12px;
+  }
+
+  .app-steps h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .app-steps-contents {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    }
+
+  .app-steps figure {
+    margin: 0;
+    width: 50%;
+  }
+  .app-steps img {
+    margin-top: 1rem;
+    max-width: none;
+    width: 7rem;
+  }
+  .app-steps figure + p {
+    margin-left: 1rem;
+  }
+}
